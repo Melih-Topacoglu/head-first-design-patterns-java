@@ -13,7 +13,8 @@ public class StatisticsDisplay implements Observer, DisplayElement {
         weatherData.registerObserver(this);
     }
 
-    public void update(float temperature, float humidity, float pressure) {
+    public void update() {
+        float temperature = weatherData.getTemperature();
         tempSum += temperature;
         numReadings++;
         minTemp = Math.min(minTemp, temperature);
