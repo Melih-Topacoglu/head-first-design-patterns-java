@@ -9,7 +9,7 @@ Head First Design Patterns.
 |---|---|---|
 | 1 | Strategy | ✅ |
 | 2 | Observer | ✅ |
-| 3 | Decorator | ⏳ |
+| 3 | Decorator | ✅ |
 | 4 | Factory | ⏳ |
 | 5 | Singleton | ⏳ |
 | 6 | Command | ⏳ |
